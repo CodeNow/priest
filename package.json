@@ -1,0 +1,32 @@
+{
+  "name": "priest",
+  "version": "0.0.1",
+  "description": "Periodic updating of metrics for the Product Team",
+  "main": "index.js",
+  "scripts": {
+    "test": "standard --verbose index.js lib/*.js",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "runnable",
+    "priest",
+    "codenow",
+    "deez",
+    "purple"
+  ],
+  "author": "Sohail Ahmed & Praful Rana",
+  "license": "ISC",
+  "devDependencies": {
+    "standard": "^8.3.0"
+  },
+  "dependencies": {
+    "101": "^1.6.2",
+    "@runnable/big-poppa-client": "^0.5.0",
+    "bluebird": "^3.4.6",
+    "dogapi": "^2.5.0",
+    "intercom-client": "^2.8.3",
+    "octonode": "^0.7.6",
+    "request": "^2.75.0",
+    "slackbots": "^0.5.2"
+  }
+}
